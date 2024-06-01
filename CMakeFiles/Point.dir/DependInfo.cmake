@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/dev/Point/Circle.cpp" "CMakeFiles/Point.dir/Circle.cpp.obj" "msvc" "CMakeFiles/Point.dir/Circle.cpp.obj.d"
   "E:/dev/Point/Point.cpp" "CMakeFiles/Point.dir/Point.cpp.obj" "msvc" "CMakeFiles/Point.dir/Point.cpp.obj.d"
   "E:/dev/Point/main.cpp" "CMakeFiles/Point.dir/main.cpp.obj" "msvc" "CMakeFiles/Point.dir/main.cpp.obj.d"
   )

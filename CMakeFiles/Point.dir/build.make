@@ -68,19 +68,19 @@ include CMakeFiles/Point.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Point.dir/flags.make
 
-CMakeFiles/Point.dir/main.cpp.obj: CMakeFiles/Point.dir/flags.make
-CMakeFiles/Point.dir/main.cpp.obj: main.cpp
-CMakeFiles/Point.dir/main.cpp.obj: CMakeFiles/Point.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\dev\Point\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Point.dir/main.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\Point.dir\main.cpp.obj.d --working-dir=E:\dev\Point --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MICROS~3\2022\PROFES~1\VC\Tools\MSVC\1439~1.335\bin\Hostx86\x86\cl.exe  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\Point.dir\main.cpp.obj /FdCMakeFiles\Point.dir/ /FS -c E:\dev\Point\main.cpp
+CMakeFiles/Point.dir/Circle.cpp.obj: CMakeFiles/Point.dir/flags.make
+CMakeFiles/Point.dir/Circle.cpp.obj: Circle.cpp
+CMakeFiles/Point.dir/Circle.cpp.obj: CMakeFiles/Point.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\dev\Point\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Point.dir/Circle.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\Point.dir\Circle.cpp.obj.d --working-dir=E:\dev\Point --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MICROS~3\2022\PROFES~1\VC\Tools\MSVC\1439~1.335\bin\Hostx86\x86\cl.exe  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\Point.dir\Circle.cpp.obj /FdCMakeFiles\Point.dir/ /FS -c E:\dev\Point\Circle.cpp
 
-CMakeFiles/Point.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Point.dir/main.cpp.i"
-	C:\PROGRA~1\MICROS~3\2022\PROFES~1\VC\Tools\MSVC\1439~1.335\bin\Hostx86\x86\cl.exe > CMakeFiles\Point.dir\main.cpp.i  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\dev\Point\main.cpp
+CMakeFiles/Point.dir/Circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Point.dir/Circle.cpp.i"
+	C:\PROGRA~1\MICROS~3\2022\PROFES~1\VC\Tools\MSVC\1439~1.335\bin\Hostx86\x86\cl.exe > CMakeFiles\Point.dir\Circle.cpp.i  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\dev\Point\Circle.cpp
 
-CMakeFiles/Point.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Point.dir/main.cpp.s"
-	C:\PROGRA~1\MICROS~3\2022\PROFES~1\VC\Tools\MSVC\1439~1.335\bin\Hostx86\x86\cl.exe  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Point.dir\main.cpp.s /c E:\dev\Point\main.cpp
+CMakeFiles/Point.dir/Circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Point.dir/Circle.cpp.s"
+	C:\PROGRA~1\MICROS~3\2022\PROFES~1\VC\Tools\MSVC\1439~1.335\bin\Hostx86\x86\cl.exe  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Point.dir\Circle.cpp.s /c E:\dev\Point\Circle.cpp
 
 CMakeFiles/Point.dir/Point.cpp.obj: CMakeFiles/Point.dir/flags.make
 CMakeFiles/Point.dir/Point.cpp.obj: Point.cpp
@@ -96,20 +96,36 @@ CMakeFiles/Point.dir/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Point.dir/Point.cpp.s"
 	C:\PROGRA~1\MICROS~3\2022\PROFES~1\VC\Tools\MSVC\1439~1.335\bin\Hostx86\x86\cl.exe  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Point.dir\Point.cpp.s /c E:\dev\Point\Point.cpp
 
+CMakeFiles/Point.dir/main.cpp.obj: CMakeFiles/Point.dir/flags.make
+CMakeFiles/Point.dir/main.cpp.obj: main.cpp
+CMakeFiles/Point.dir/main.cpp.obj: CMakeFiles/Point.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\dev\Point\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Point.dir/main.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\Point.dir\main.cpp.obj.d --working-dir=E:\dev\Point --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MICROS~3\2022\PROFES~1\VC\Tools\MSVC\1439~1.335\bin\Hostx86\x86\cl.exe  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\Point.dir\main.cpp.obj /FdCMakeFiles\Point.dir/ /FS -c E:\dev\Point\main.cpp
+
+CMakeFiles/Point.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Point.dir/main.cpp.i"
+	C:\PROGRA~1\MICROS~3\2022\PROFES~1\VC\Tools\MSVC\1439~1.335\bin\Hostx86\x86\cl.exe > CMakeFiles\Point.dir\main.cpp.i  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\dev\Point\main.cpp
+
+CMakeFiles/Point.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Point.dir/main.cpp.s"
+	C:\PROGRA~1\MICROS~3\2022\PROFES~1\VC\Tools\MSVC\1439~1.335\bin\Hostx86\x86\cl.exe  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Point.dir\main.cpp.s /c E:\dev\Point\main.cpp
+
 # Object files for target Point
 Point_OBJECTS = \
-"CMakeFiles/Point.dir/main.cpp.obj" \
-"CMakeFiles/Point.dir/Point.cpp.obj"
+"CMakeFiles/Point.dir/Circle.cpp.obj" \
+"CMakeFiles/Point.dir/Point.cpp.obj" \
+"CMakeFiles/Point.dir/main.cpp.obj"
 
 # External object files for target Point
 Point_EXTERNAL_OBJECTS =
 
-Point.exe: CMakeFiles/Point.dir/main.cpp.obj
+Point.exe: CMakeFiles/Point.dir/Circle.cpp.obj
 Point.exe: CMakeFiles/Point.dir/Point.cpp.obj
+Point.exe: CMakeFiles/Point.dir/main.cpp.obj
 Point.exe: CMakeFiles/Point.dir/build.make
 Point.exe: CMakeFiles/Point.dir/objects1.rsp
 Point.exe: CMakeFiles/Point.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\dev\Point\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Point.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\dev\Point\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Point.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Point.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -7,7 +7,9 @@ endif()
 
 project ("Point")
 
-add_executable (Point "main.cpp" Point.cpp)
+file(GLOB SOURCES "./*.cpp")
+
+add_executable(Point ${SOURCES})
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Point PROPERTY CXX_STANDARD 20)

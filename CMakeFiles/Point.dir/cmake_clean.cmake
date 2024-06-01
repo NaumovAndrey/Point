@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Point.dir/Circle.cpp.obj"
+  "CMakeFiles/Point.dir/Circle.cpp.obj.d"
   "CMakeFiles/Point.dir/Point.cpp.obj"
   "CMakeFiles/Point.dir/Point.cpp.obj.d"
   "CMakeFiles/Point.dir/main.cpp.obj"

@@ -128,6 +128,30 @@ Point/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Point.dir\build.make CMakeFiles/Point.dir/build
 .PHONY : Point/fast
 
+Circle.obj: Circle.cpp.obj
+.PHONY : Circle.obj
+
+# target to build an object file
+Circle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Point.dir\build.make CMakeFiles/Point.dir/Circle.cpp.obj
+.PHONY : Circle.cpp.obj
+
+Circle.i: Circle.cpp.i
+.PHONY : Circle.i
+
+# target to preprocess a source file
+Circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Point.dir\build.make CMakeFiles/Point.dir/Circle.cpp.i
+.PHONY : Circle.cpp.i
+
+Circle.s: Circle.cpp.s
+.PHONY : Circle.s
+
+# target to generate assembly for a file
+Circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Point.dir\build.make CMakeFiles/Point.dir/Circle.cpp.s
+.PHONY : Circle.cpp.s
+
 Point.obj: Point.cpp.obj
 .PHONY : Point.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Point
+	@echo ... Circle.obj
+	@echo ... Circle.i
+	@echo ... Circle.s
 	@echo ... Point.obj
 	@echo ... Point.i
 	@echo ... Point.s
